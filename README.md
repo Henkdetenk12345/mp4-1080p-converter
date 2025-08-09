@@ -107,7 +107,7 @@ The script automatically detects the best available encoder:
 
 ## 📊 Performance
 
-### Typical Speeds (RTX 3060 example)
+### Typical Speeds (RTX 3060 example on Windows 11 with full fan speed)
 - **CPU only**: ~400 fps
 - **NVENC**: 500-700 fps (2-3x faster)
 - **Batch of 75 videos**: ~2-3 hours total
