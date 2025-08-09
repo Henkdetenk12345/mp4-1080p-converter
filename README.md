@@ -42,7 +42,7 @@ A fast Python script that batch converts all MP4 files to 1920x1080 resolution w
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/henkdetenk12345/mp4-1080p-converter.git
+   git clone https://github.com/yourusername/mp4-1080p-converter.git
    cd mp4-1080p-converter
    ```
 
@@ -107,16 +107,23 @@ The script automatically detects the best available encoder:
 
 ## 📊 Performance
 
-### Typical Speeds (Ryzen 7 5800x with RTX 3060 example on Windows 11 with full fan speed)
-- **CPU only**: ~400 fps
-- **NVENC**: 500-700 fps (2-3x faster)
+### Real-world Test Results
+**Test System**: Windows 11, Ryzen 7 5800X, RTX 3060
+- **Single video**: ~22 minutes → ~1.5 minutes encoding time
+- **Encoding speed**: 500-700 fps (with thermal variations 400-700 fps)
+- **Speedup**: ~15x faster than real-time
 - **Batch of 75 videos**: ~2-3 hours total
 
+### Speed Comparison
+- **CPU only** (libx264): ~400 fps
+- **NVENC** (RTX 3060): 500-700 fps (2-3x faster than CPU)
+- **Real-time ratio**: 15-30x faster than video duration
+
 ### GPU Utilization
-- **Power usage**: 30-40% of GPU capacity
-- **Temperature**: Stays cool (40-50°C)
-- **Memory**: Minimal VRAM usage
-- **Efficiency**: Can run other tasks simultaneously
+- **Power usage**: 30-40% of GPU capacity  
+- **Temperature**: 40-50°C (thermal cycling affects FPS)
+- **Memory**: Minimal VRAM usage (~1-2GB)
+- **System impact**: Can run other tasks simultaneously
 
 ## 🔧 Optimization Tips
 
