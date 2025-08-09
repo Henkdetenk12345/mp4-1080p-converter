@@ -42,7 +42,7 @@ A fast Python script that batch converts all MP4 files to 1920x1080 resolution w
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/mp4-1080p-converter.git
+   git clone https://github.com/henkdetenk12345/mp4-1080p-converter.git
    cd mp4-1080p-converter
    ```
 
